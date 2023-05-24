@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Soma</title>
+    <script src="js/index.js"></script>
+    <style>
+        section{
+            text-align: center;
+            width: 100%;
+            height: 100vh;
+            color: white;
+            background-color: black;
+        }
+        .centro {
+            top: 50%;
+            left: 50%;
+            transform: translateY(35vh);
+
+        }
+
+        .resultado {
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="centro">
+            Primeiro valor: 
+            <input class="num1" type="text"><br>
+            Segundo Valor:
+            <input class="num2" type="number"><br>
+            <button onclick="clicar()">Resultado</button>
+            <p class="resultado"></p>
+        </div>
+    </section>
+</body>
+</html>
